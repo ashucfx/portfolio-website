@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+  command = ""
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[headers]
+  /*
+  Cache-Control = "public, max-age=0, must-revalidate"
