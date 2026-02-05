@@ -3,37 +3,36 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — Ashutosh Shukla</title>
-  <meta name="description" content="Contact Ashutosh to build meaningful growth together. Noida, Uttar Pradesh, India." />
+  <title>Contact</title>
+  <meta name="description" content="Get in touch. Direct contact for inquiries, collaboration, or conversation." />
+  <meta name="theme-color" content="#1d4ed8" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.min.css" />
-  <link rel="stylesheet" href="css/pages.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/system.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/contact-enhanced.css" />
   <script defer src="js/main.js"></script>
 </head>
-<body>
-  <header class="site-header">
+<body class="page-transition">
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <header class="site-header" role="banner">
     <div class="header-inner">
       <div class="logo-section">
-        <a class="logo" href="/" title="Ashutosh Shukla">A</a>
+        <a class="logo" href="/" title="Ashutosh Shukla">AS</a>
         <a class="brand" href="/">Ashutosh Shukla</a>
       </div>
-      <nav class="main-nav">
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="about.html">About</a>
-        <a href="experience.html">Experience</a>
-        <a href="skills.html">Skills</a>
-        <a href="case-studies.html">Case Studies</a>
-        <a href="contact.html">Contact</a>
+        <a href="profile.html">Profile</a>
+        <a href="execution.html">Execution</a>
+        <a href="impact.html">Impact</a>
+        <a href="contact.html" aria-current="page">Contact</a>
       </nav>
       <div class="header-actions">
-        <a href="https://paypal.me/ripplenexus?locale.x=en_GB&country.x=IN" target="_blank" rel="noopener" class="btn-coffee" title="Support my work">
-          <span class="coffee-icon">☕</span>
-          <span class="coffee-text">Buy Me a Coffee</span>
-        </a>
-        <button id="theme-toggle" class="btn-toggle" aria-label="Toggle dark mode">🌗</button>
+        <button id="theme-toggle" class="btn-toggle" aria-label="Toggle dark mode">⚙</button>
         <button id="hamburger" class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
           <span></span>
           <span></span>
@@ -45,143 +44,304 @@
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="execution.html">Execution</a></li>
+        <li><a href="impact.html">Impact</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="contact-page">
-    <header class="contact-header">
-      <h1>Let's Build Meaningful Growth Together</h1>
-      <p>I'm always interested in talking about new opportunities, collaborations, and growth strategies. Reach out via any of the channels below.</p>
-    </header>
-    
-    <div class="contact-cards">
-      <div class="contact-card">
-        <div class="contact-card-icon">📍</div>
-        <h3>Location</h3>
-        <p>Noida, Uttar Pradesh, India</p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-card-icon">📧</div>
-        <h3>Email</h3>
-        <p>
-          <a href="mailto:founder@theripplenexus.com">founder@theripplenexus.com</a><br>
-          <a href="mailto:ashutosh6471@gmail.com">ashutosh6471@gmail.com</a>
-        </p>
-      </div>
-      <div class="contact-card">
-        <div class="contact-card-icon">🔗</div>
-        <h3>LinkedIn</h3>
-        <p><a href="https://linkedin.com/in/ashutosh-shuklaa/" target="_blank" rel="noopener">in/ashutosh-shuklaa</a></p>
-      </div>
+  <main id="main" class="site-main">
+    <div class="container">
+      <!-- INTRO -->
+      <section class="contact-intro fade-section">
+        <p class="eyebrow">Get in Touch</p>
+        <h1 class="display">Let's start a conversation</h1>
+        <p class="lead">Looking to discuss opportunities, collaboration, or just want to connect? I'm available and respond to all messages within 24 hours.</p>
+      </section>
+
+      <!-- CONTACT OPTIONS -->
+      <section class="contact-options fade-section">
+        <div class="contact-method glass">
+          <div class="method-icon">✉</div>
+          <h3>Email</h3>
+          <p>The best way to reach me directly.</p>
+          <a href="mailto:ashutosh6471@gmail.com" class="btn btn-primary">ashutosh6471@gmail.com</a>
+        </div>
+
+        <div class="contact-method glass">
+          <div class="method-icon">in</div>
+          <h3>LinkedIn</h3>
+          <p>Connect for professional opportunities and network.</p>
+          <a href="https://linkedin.com/in/ashutosh-shuklaa/" target="_blank" rel="noopener" class="btn btn-secondary">View Profile</a>
+        </div>
+
+        <div class="contact-method glass">
+          <div class="method-icon">◉</div>
+          <h3>Location</h3>
+          <p>Currently based in Noida, India.</p>
+          <div class="location-note pill">Open to remote & global opportunities</div>
+        </div>
+      </section>
+
+      <!-- MESSAGE -->
+      <section class="contact-message">
+        <h2>What to mention</h2>
+        <p>When you reach out, it helps if you share:</p>
+        <ul>
+          <li><strong>What you're working on.</strong> What's the challenge or opportunity?</li>
+          <li><strong>What you're looking for.</strong> Are you hiring? Exploring collaboration? Seeking advice?</li>
+          <li><strong>Timeline.</strong> When do you need someone? When are you deciding?</li>
+          <li><strong>Team context.</strong> Who would I be working with? What's the organizational setup?</li>
+        </ul>
+        <p style="margin-top: var(--space-8); font-size: var(--font-size-sm); color: var(--color-text-secondary);">I'll respond with the same directness. No fluff. No vague follow-ups.</p>
+      </section>
+
+      <!-- ROLES I'M INTERESTED IN -->
+      <section class="roles-section fade-section">
+        <div class="section-head">
+          <p class="eyebrow">Exploring Opportunities</p>
+          <h2 class="display">Roles I'm Built For</h2>
+          <p class="lead">I'm open to roles that leverage execution discipline and operational thinking close to decision-making.</p>
+        </div>
+        
+        <div class="role-grid">
+          <div class="card role-card">
+            <h3>Operations Leadership</h3>
+            <p>Building scalable systems, coordinating across teams, creating accountability frameworks that drive outcomes.</p>
+          </div>
+          
+          <div class="card role-card">
+            <h3>Strategic Delivery</h3>
+            <p>Running complex initiatives, managing dependencies, translating strategy into shipped work with clarity.</p>
+          </div>
+          
+          <div class="card role-card">
+            <h3>Project/Program Management</h3>
+            <p>Owning execution timelines, driving measurable results, supporting decision-makers with transparent delivery.</p>
+          </div>
+          
+          <div class="card role-card">
+            <h3>Founder Support</h3>
+            <p>Running operations, handling coordination, building systems so founders focus on strategy and growth.</p>
+          </div>
+        </div>
+
+        <div class="roles-note glass">
+          <p><strong>The title matters less than the mission.</strong> I care about impact, execution discipline, and working close to decision-making. If you have something interesting, let's talk.</p>
+        </div>
+      </section>
+
+      <!-- RESPONSE TIME -->
+      <section class="response-section">
+        <h2>Response Time</h2>
+        <p><strong>I respond within 24 hours.</strong> If I'm interested, I'll respond quickly. If the role doesn't fit, I'll tell you directly with specific reasons. No ghosting. No vague delays.</p>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section class="final-cta fade-section">
+        <div class="final-cta-inner glass">
+          <p class="eyebrow">Ready to Connect</p>
+          <h2 class="display">Let's align execution</h2>
+          <p class="cta-lead">Ready to explore the next opportunity. Looking forward to hearing from you.</p>
+          <a href="mailto:ashutosh6471@gmail.com" class="btn btn-primary">Send Email</a>
+        </div>
+      </section>
     </div>
-
-    <section class="contact-form-section">
-      <h2>Send Me a Message</h2>
-      <p>Please email or message via LinkedIn—I'm responsive and prefer direct conversations for scope clarity.</p>
-
-      <form id="contact-form" name="contact" method="POST" data-formspree-endpoint="https://formspree.io/f/xdakpzql" class="contact-form">
-        <input type="hidden" name="_subject" value="New Contact Form Submission" />
-        <input type="hidden" name="_next" value="https://www.theripplenexus.com/" />
-        <input type="hidden" name="_captcha" value="false" />
-
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input id="name" name="name" type="text" required placeholder="Your full name" />
-        </div>
-
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input id="email" name="email" type="email" required placeholder="you@company.com" />
-        </div>
-
-        <div class="form-group">
-          <label for="phone">Phone (Optional)</label>
-          <input id="phone" name="phone" type="tel" placeholder="+1 (555) 123-4567" />
-        </div>
-
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
-        </div>
-
-        <button type="submit" id="submit-btn" class="btn primary form-submit">Send Message</button>
-        <div id="loader" class="form-loader">
-          <div class="spinner"></div>
-        </div>
-        <div id="form-status" role="status" aria-live="polite" class="form-status"></div>
-      </form>
-    </section>
-
-    <section class="support-section">
-      <h2>Support My Work</h2>
-      <p>If you find value in my work or want to support what I do, you can buy me a coffee. Every contribution is appreciated!</p>
-      <div class="support-buttons">
-        <a href="https://paypal.me/ripplenexus?locale.x=en_GB&country.x=IN" target="_blank" rel="noopener" class="btn primary coffee-page-btn">
-          <span class="btn-icon">☕</span>
-          Buy Me a Coffee
-        </a>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-branding">
+      <div class="footer-brand-section">
+        <div class="footer-logo">AS</div>
         <div class="footer-branding-text">
           <h2>Ashutosh Shukla</h2>
-          <p>Building growth through clarity, trust, and value-driven execution.</p>
-        </div>
-        <div class="footer-social">
-          <a href="https://linkedin.com/in/ashutosh-shuklaa/" target="_blank" rel="noopener" title="LinkedIn">in</a>
-          <a href="mailto:ashutosh6471@gmail.com" title="Email">✉</a>
+          <p>Strategic execution operator who translates decisions into delivered outcomes.</p>
         </div>
       </div>
 
-      <div class="footer-column">
-        <h3>Support</h3>
-        <ul>
-          <li>
-            <a href="https://paypal.me/ripplenexus?locale.x=en_GB&country.x=IN" target="_blank" rel="noopener" class="footer-coffee-link">
-              <span class="coffee-icon">☕</span> Buy Me a Coffee
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Navigate</h3>
+          <ul>
+            <li><a href="/" class="link-underline">Home</a></li>
+            <li><a href="profile.html" class="link-underline">Profile</a></li>
+            <li><a href="execution.html" class="link-underline">Execution</a></li>
+            <li><a href="impact.html" class="link-underline">Impact</a></li>
+            <li><a href="contact.html" class="link-underline">Contact</a></li>
+          </ul>
+        </div>
 
-      <div class="footer-column">
-        <h3>Navigation</h3>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="skills.html">Skills</a></li>
-        </ul>
-      </div>
+        <div class="footer-column">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="mailto:ashutosh6471@gmail.com" class="link-underline">Email</a></li>
+            <li><a href="https://linkedin.com/in/ashutosh-shuklaa/" target="_blank" rel="noopener" class="link-underline">LinkedIn</a></li>
+          </ul>
+        </div>
 
-      <div class="footer-column">
-        <h3>Work</h3>
-        <ul>
-          <li><a href="case-studies.html">Case Studies</a></li>
-          <li><a href="experience.html">Founder Journey</a></li>
-          <li><a href="skills.html">Expertise</a></li>
-          <li><a href="contact.html">Get in Touch</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© 2024–<span id="year">2025</span> Ashutosh Shukla. All rights reserved. | <a href="/sitemap.xml">Sitemap</a></p>
+        <div class="footer-column">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="robots.txt" class="link-underline">Robots</a></li>
+            <li><a href="sitemap.xml" class="link-underline">Sitemap</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ashutosh Shukla. Strategic execution operator.</p>
+    </div>
   </footer>
-  
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+
+  <style>
+    /* ---- CONTACT PAGE SPECIFIC ---- */
+    
+    .contact-intro {
+      padding: var(--space-20) 0;
+      border-bottom: 1px solid var(--color-border);
+      margin-bottom: var(--space-20);
+    }
+    
+    .contact-intro h1 {
+      margin-bottom: var(--space-6);
+    }
+    
+    /* Contact Options */
+    .contact-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: var(--space-12);
+      margin-bottom: var(--space-20);
+    }
+    
+    .contact-method {
+      padding: var(--space-10);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      background-color: var(--color-bg-secondary);
+    }
+    
+    .contact-method h3 {
+      margin-top: 0;
+      margin-bottom: var(--space-2);
+    }
+    
+    .contact-method p {
+      font-size: var(--font-size-sm);
+      margin-bottom: var(--space-4);
+    }
+    
+    .contact-method p:last-child {
+      margin-bottom: var(--space-4);
+    }
+    
+    .contact-method .btn {
+      width: 100%;
+      text-align: center;
+      display: block;
+      padding: var(--space-3) var(--space-4);
+      font-size: var(--font-size-sm);
+    }
+    
+    /* Contact Message */
+    .contact-message {
+      margin-bottom: var(--space-20);
+      padding: var(--space-12);
+      background-color: var(--color-bg-secondary);
+      border-radius: var(--radius-lg);
+    }
+    
+    .contact-message h2 {
+      margin-top: 0;
+    }
+    
+    .contact-message p {
+      font-size: var(--font-size-sm);
+    }
+    
+    .contact-message ul {
+      font-size: var(--font-size-sm);
+    }
+    
+    /* Roles Section */
+    .roles-section {
+      margin-bottom: var(--space-20);
+    }
+    
+    .role-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--space-6);
+      margin: var(--space-8) 0;
+    }
+    
+    .role-item {
+      padding: var(--space-6);
+      border-left: 2px solid var(--color-accent);
+      font-size: var(--font-size-sm);
+      line-height: var(--line-height-relaxed);
+    }
+    
+    /* Response Section */
+    .response-section {
+      margin-bottom: var(--space-20);
+      padding: var(--space-10);
+      background-color: var(--color-bg-secondary);
+      border-radius: var(--radius-lg);
+      border-left: 3px solid var(--color-accent);
+    }
+    
+    .response-section h2 {
+      margin-top: 0;
+    }
+    
+    .response-section p {
+      margin: 0;
+      font-size: var(--font-size-sm);
+    }
+    
+    /* Final CTA */
+    .final-cta {
+      padding: var(--space-16);
+      background-color: var(--color-bg-secondary);
+      border-radius: var(--radius-lg);
+      text-align: center;
+    }
+    
+    .final-cta h2 {
+      margin-top: 0;
+    }
+    
+    .final-cta p {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: var(--space-8);
+    }
+    
+    .final-cta .btn {
+      display: inline-block;
+    }
+    
+    @media (max-width: 768px) {
+      .contact-intro {
+        padding: var(--space-12) 0;
+      }
+      
+      .contact-options {
+        grid-template-columns: 1fr;
+      }
+      
+      .role-list {
+        grid-template-columns: 1fr;
+      }
+      
+      .final-cta {
+        padding: var(--space-12);
+      }
+    }
+  </style>
 </body>
 </html>
